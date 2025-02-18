@@ -4,28 +4,52 @@ import Editor from "@/app/components/editor";
 
 const projects = [
     {
-        title: "Project 1",
-        description: "Lorem ipsum dolor sit amet consectetur.",
+        title: "Portfolio",
+        description: "Personal portfolio developed with Next.js using Typescript and Tailwind CSS.",
         imageUrl: "/placeholder.svg",
-        githubLink: "https://github.com/user/project1",
+        githubLink: "https://github.com/dietcokechan/portfolio",
     },
     {
-        title: "Project 2",
-        description: "Tristique vitae hendrerit fermentum lorem fringilla.",
+        title: "Single Page CV",
+        description: "My take on the cloud resume challenge (AWS edition).",
         imageUrl: "/placeholder.svg",
-        githubLink: "https://github.com/user/project2",
+        githubLink: "https://github.com/dietcokechan/single-page-cv",
     },
     {
-        title: "Project 3",
-        description: "Sit scelerisque morbi egestas amet ultricies erat viverra.",
+        title: "HBNB - Airbnb Clone",
+        description: "airbnb clone project as part of my ALX SWE programme journey.",
         imageUrl: "/placeholder.svg",
-        githubLink: "https://github.com/user/project3",
+        githubLink: "https://github.com/dietcokechan/AirBnB_clone_v4",
+    },
+    {
+        title: "React Bookshelf",
+        description: "All your books in one place! Developed with React, Node.js, Express.js and MySQL.",
+        imageUrl: "/placeholder.svg",
+        githubLink: "All your books in one place! Developed with React, Node.js, Express.js and MySQL.",
     },
 ];
 
 const file = {
     name: 'highlighted-projects.js',
-    content: `// Highlighted Projects`,
+    content: `// Highlighted Projects\n
+{* Personal Portfolio *}
+My personal portfolio is a modern, responsive web application built with Next.js, React.js, and Tailwind CSS. 
+It serves as a platform to showcase my projects, skills, and experience in UI/UX design, front-end development, and branding. 
+The site features a clean and intuitive design, a project gallery with interactive cards, and smooth animations for an engaging user experience. 
+Leveraging Next.js for performance optimization and Tailwind CSS for a sleek, consistent UI, this portfolio highlights my expertise in building visually appealing and user-friendly applications.\n
+{* Single Page CV *}
+Created a static resume website hosted on AWS, integrating front-end (HTML, CSS),
+serverless back-end (AWS Lambda, API Gateway), and Infrastructure as Code (Terraform),
+and implemented CI/CD with GitHub Actions for automated deployment and a visitor counter API.\n
+{* HBNB - Airbnb Clone *}
+Developed a full-stack web application simulating an Airbnb platform using Python and Flask for the back-end and MySQL for database management. 
+The project includes a RESTful API for handling user interactions and integrates a front-end built with HTML, CSS, and JavaScript.
+Collaboration was managed using Git and GitHub, with deployment to platforms like AWS or Heroku and workflows automated through continuous deployment tools.\n
+{* React Bookshelf *}
+Designed and developed a full-stack bookshelf application for managing and organizing books.
+The front-end was built using HTML, CSS, JavaScript, and React.js for a dynamic and responsive user interface. 
+The back-end was implemented with Node.js and Express.js, providing RESTful API endpoints. 
+Data was stored and managed in a MySQL database, ensuring reliable and efficient data handling. This project demonstrates`,
 }
 
 export default function AllProjects() {

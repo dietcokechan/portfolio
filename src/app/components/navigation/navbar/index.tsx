@@ -9,7 +9,7 @@ export default function Navbar({ toggle } : { toggle: () => void }) {
                     <div className="flex justify-between items-center h-full md:divide-x text-gray-300">
                         <div className="flex justify-between items-center divide-x">
                             <Link href="/" className="pr-16 py-4 cursor-pointer">
-                                firstname-lastname
+                                habiba-sameh
                             </Link>
                             <ul className="hidden md:flex text-white justify-center items-center divide-x">
                                 <li className="px-6 py-4 cursor-pointer">

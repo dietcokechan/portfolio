@@ -1,3 +1,7 @@
 ﻿export default function Contact() {
-    return <p>Contact Page</p>
+    return (
+        <div className="w-screen">
+            <h1>Contact Page</h1>
+        </div>
+    );
 }
