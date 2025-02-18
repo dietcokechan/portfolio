@@ -1,9 +1,42 @@
+import Editor from "@/app/components/editor";
+
+const file = {
+    name: "hello-world.js",
+    content: `{* //////////////////////// *}
+    
+Welcome to my portfolio!
+
+ * *  *           *  * 
+*       *   *    *                           
+                       
+  **    *        *  *  
+     *     *           
+ *    *                
+
+ Habiba Sameh
+ >> Software Developer
+ 
+ * *  *           *  *
+              *        
+            *          
+                *    * 
+*       *   *    *     
+                       
+     *     *           
+ *    *
+ 
+Creative professional with a background in art, game development, and full-stack development.
+Skilled in design and front-end technologies, and quick to learn and adapt to new tools and technologies.
+Self-motivated with a passion for blending creativity and technical expertise.
+
+{* //////////////////////// *}
+`,
+}
+
 export default function Home() {
-  return (
-    <>
-      <div className="flex-grow flex items-center justify-center bg-[#272727] text-white">
-          <h1 className="text-6xl">Main Content</h1>
-      </div>
-    </>
-  );
+    return (
+        <div className="w-screen">
+            <Editor name={file.name} content={file.content} />
+        </div>
+    );
 }
