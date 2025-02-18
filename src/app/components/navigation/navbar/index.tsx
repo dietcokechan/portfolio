@@ -4,7 +4,7 @@ import Link from 'next/link';
 export default function Navbar({ toggle } : { toggle: () => void }) {
     return (
         <>
-            <div className="w-full h-16 bg-[#1E1E1E] sticky top-0 border-b">
+            <div className="w-full h-16 bg-[#1E1E1E] sticky top-0 border-b z-10">
                 <div className="mx-4 px-0 h-full">
                     <div className="flex justify-between items-center h-full md:divide-x text-gray-300">
                         <div className="flex justify-between items-center divide-x">
