@@ -12,13 +12,13 @@ export default function Sidebar({ isOpen, toggle } : { isOpen: boolean, toggle: 
                 }}
             >
                 <ul className="sidebar-nav text-left leading-relaxed text-xl divide-y">
-                    <li className="py-4">
+                    <li className="px-10 py-4">
                         <Link href="/about" onClick={toggle}><p>about</p></Link>
                     </li>
-                    <li className="py-4">
+                    <li className="px-10 py-4">
                         <Link href="/projects" onClick={toggle}><p>projects</p></Link>
                     </li>
-                    <li className="py-4">
+                    <li className="px-10 py-4">
                         <Link href="/contact" onClick={toggle}><p>contact</p></Link>
                     </li>
                 </ul>

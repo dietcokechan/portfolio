@@ -8,28 +8,28 @@ export default function Navbar({ toggle } : { toggle: () => void }) {
                 <div className="mx-4 px-0 h-full">
                     <div className="flex justify-between items-center h-full md:divide-x text-gray-300">
                         <div className="flex justify-between items-center divide-x">
-                            <Link href="/" className="pr-16 py-3 cursor-pointer">
+                            <Link href="/" className="pr-16 py-4 cursor-pointer">
                                 firstname-lastname
                             </Link>
                             <ul className="hidden md:flex text-white justify-center items-center divide-x">
-                                <li className="px-6 py-3 cursor-pointer">
+                                <li className="px-6 py-4 cursor-pointer">
                                     <Link href="/">
                                         <p>home</p>
                                     </Link>
                                 </li>
-                                <li className="px-6 py-3 cursor-pointer">
+                                <li className="px-6 py-4 cursor-pointer">
                                     <Link href="/about">
                                         <p>about me</p>
                                     </Link>
                                 </li>
-                                <li className="px-6 py-3 cursor-pointer">
+                                <li className="px-6 py-4 cursor-pointer">
                                     <Link href="/projects">
                                         <p>projects</p>
                                     </Link>
                                 </li>
                             </ul>
                         </div>
-                        <Link href="/contact" className="hidden md:flex text-white px-6 py-3 cursor-pointer">
+                        <Link href="/contact" className="hidden md:flex text-white px-6 py-4 cursor-pointer">
                             <p>contact</p>
                         </Link>
                         <button type="button" className="inline-flex items-center md:hidden"
