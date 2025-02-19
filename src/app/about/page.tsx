@@ -48,14 +48,10 @@ Arabic (Native), English (Fluent), French(Beginner), German (Beginner)`,
 
 export default function About() {
     return (
-        <div className="flex flex-wrap md:h-[calc(100vh-8rem)] w-screen">
-            <div className="flex flex-col w-full md:w-1/2 md:h-full">
-                <Editor name={bio.name} content={bio.content} />
-                <Editor name={skills.name} content={skills.content} />
-            </div>
-            <div className="w-full md:w-1/2 md:h-full">
-                <Editor name={experience.name} content={experience.content} />
-            </div>
+        <div className="flex flex-col md:flex-row h-full md:h-[calc(100vh-4rem)] w-screen overflow-hidden">
+            <Editor name={bio.name} content={bio.content} />
+            <Editor name={skills.name} content={skills.content} />
+            <Editor name={experience.name} content={experience.content} />
         </div>
     )
 }

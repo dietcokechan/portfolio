@@ -49,21 +49,23 @@ Collaboration was managed using Git and GitHub, with deployment to platforms lik
 Designed and developed a full-stack bookshelf application for managing and organizing books.
 The front-end was built using HTML, CSS, JavaScript, and React.js for a dynamic and responsive user interface. 
 The back-end was implemented with Node.js and Express.js, providing RESTful API endpoints. 
-Data was stored and managed in a MySQL database, ensuring reliable and efficient data handling. This project demonstrates`,
+Data was stored and managed in a MySQL database, ensuring reliable and efficient data handling. This project demonstrates skills in full-stack development, API integration, and database management.`,
 }
 
 export default function AllProjects() {
     return (
-        <div className="grid md:grid-cols-2 h-[calc(100vh-8rem)] w-screen">
-            <Editor name={file.name} content={file.content} />
-            <div className="bg-[#272727] flex flex-col items-center p-10 overflow-y-scroll">
-                <div className="grid grid-cols-1 gap-8">
+        <div className="flex flex-col-reverse md:flex-row h-full md:h-[calc(100vh-4rem)] w-screen overflow-hidden">
+            <div className="md:basis-2/3">
+                <Editor name={file.name} content={file.content} />
+            </div>
+            <div className="bg-[#272727] md:basis-1/3 flex-col items-center justify-items-center p-10 overflow-scroll">
+                <div className="grid grid-cols-1 gap-8 justify-items-center">
                     {projects.map((project, index) => (
                         <ProjectCard key={index} {...project} />
                     ))}
                 </div>
-                <Link href={"https://github.com/dietcokechan?tab=repositories"} className="text-white mt-8 cursor-pointer hover:underline">
-                    <p>View all projects on GitHub</p>
+                <Link href={"https://github.com/dietcokechan?tab=repositories"}>
+                    <p className="text-white cursor-pointer hover:underline py-6">View all projects on GitHub</p>
                 </Link>
             </div>
         </div>
