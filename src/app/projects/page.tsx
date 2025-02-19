@@ -25,7 +25,7 @@ const projects = [
         title: "React Bookshelf",
         description: "All your books in one place! Developed with React, Node.js, Express.js and MySQL.",
         imageUrl: "/react-bookshelf.png",
-        githubLink: "All your books in one place! Developed with React, Node.js, Express.js and MySQL.",
+        githubLink: "https://github.com/dietcokechan/React-Bookshelf",
     },
 ];
 
