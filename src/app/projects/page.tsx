@@ -17,7 +17,7 @@ const projects = [
     },
     {
         title: "3D Maze",
-        description: "airbnb clone project as part of my ALX SWE programme journey.",
+        description: "3D maze rendered with SDL2 using raycasting algorithm",
         imageUrl: "/raycast-maze.png",
         githubLink: "https://github.com/dietcokechan/Maze",
     },
