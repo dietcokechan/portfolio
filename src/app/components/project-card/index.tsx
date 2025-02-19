@@ -10,13 +10,14 @@ interface ProjectCardProps {
 const ProjectCard = ({ title, description, imageUrl, githubLink } : ProjectCardProps) => {
     return (
         <div className="bg-[#1e1e1e] text-white rounded-2xl shadow-lg overflow-hidden w-11/12 p-4  items-center justify-center">
-            <div className="bg-gray-700 h-40 flex items-center justify-center rounded-xl">
+            <div className="h-40 flex items-center justify-center rounded-xl">
                 <Image
-                    src={imageUrl || "/placeholder.svg"} // Replace with actual image paths
+                    src={imageUrl ? imageUrl : "/placeholder.svg"} // Replace with actual image paths
                     alt={title}
-                    width={150}
-                    height={150}
-                    className="opacity-50"
+                    width={300}
+                    height={300}
+                    className="opacity-80"
+                    style={{ objectFit: "cover", height: "100%", width: "100%", borderRadius: "0.6rem" }}
                 />
             </div>
             <h3 className="text-lg sm:text-sm font-semibold mt-4">{title}</h3>

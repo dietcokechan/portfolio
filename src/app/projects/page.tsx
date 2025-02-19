@@ -6,25 +6,25 @@ const projects = [
     {
         title: "Portfolio",
         description: "Personal portfolio developed with Next.js using Typescript and Tailwind CSS.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/portfolio.png",
         githubLink: "https://github.com/dietcokechan/portfolio",
     },
     {
         title: "Single Page CV",
         description: "My take on the cloud resume challenge (AWS edition).",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/single-page-cv.png",
         githubLink: "https://github.com/dietcokechan/single-page-cv",
     },
     {
-        title: "HBNB - Airbnb Clone",
+        title: "3D Maze",
         description: "airbnb clone project as part of my ALX SWE programme journey.",
-        imageUrl: "/placeholder.svg",
-        githubLink: "https://github.com/dietcokechan/AirBnB_clone_v4",
+        imageUrl: "/raycast-maze.png",
+        githubLink: "https://github.com/dietcokechan/Maze",
     },
     {
         title: "React Bookshelf",
         description: "All your books in one place! Developed with React, Node.js, Express.js and MySQL.",
-        imageUrl: "/placeholder.svg",
+        imageUrl: "/react-bookshelf.png",
         githubLink: "All your books in one place! Developed with React, Node.js, Express.js and MySQL.",
     },
 ];
@@ -41,10 +41,10 @@ Leveraging Next.js for performance optimization and Tailwind CSS for a sleek, co
 Created a static resume website hosted on AWS, integrating front-end (HTML, CSS),
 serverless back-end (AWS Lambda, API Gateway), and Infrastructure as Code (Terraform),
 and implemented CI/CD with GitHub Actions for automated deployment and a visitor counter API.\n
-{* HBNB - Airbnb Clone *}
-Developed a full-stack web application simulating an Airbnb platform using Python and Flask for the back-end and MySQL for database management. 
-The project includes a RESTful API for handling user interactions and integrates a front-end built with HTML, CSS, and JavaScript.
-Collaboration was managed using Git and GitHub, with deployment to platforms like AWS or Heroku and workflows automated through continuous deployment tools.\n
+{* 3D Maze *}
+Developed a 3D maze game using C and SDL2, implementing raycasting for real-time rendering. Gained experience in game development, graphics programming, and algorithm optimization. 
+Utilized data structures, memory management, and low-level system programming to ensure efficient performance. 
+Strong understanding of 2D-to-3D projection, collision detection, and interactive gameplay mechanics.\n
 {* React Bookshelf *}
 Designed and developed a full-stack bookshelf application for managing and organizing books.
 The front-end was built using HTML, CSS, JavaScript, and React.js for a dynamic and responsive user interface. 
