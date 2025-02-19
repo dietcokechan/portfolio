@@ -13,7 +13,7 @@ export default function Footer() {
                                 links
                             </p>
                             <ul className="flex text-white justify-center items-center divide-x">
-                                <li className="px-5 py-3 cursor-pointer">
+                                <li className="pl-0 pr-5 md:px-5 py-3 cursor-pointer">
                                     <Link href="https://linkedin.com/in/habiba-sameh" target="_blank">
                                         <LinkedinIcon className="size-5" />
                                     </Link>
